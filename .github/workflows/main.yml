@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   get-num-square:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     name: return the numver square
     steps:
       - name: Checkout
